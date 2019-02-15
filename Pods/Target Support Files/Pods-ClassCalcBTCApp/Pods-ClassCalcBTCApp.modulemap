@@ -1,0 +1,6 @@
+framework module Pods_ClassCalcBTCApp {
+  umbrella header "Pods-ClassCalcBTCApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClassCalcBTCApp/ChooseCurrencyViewController.swift"
+            timestampString = "571962324.940256"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClassCalcBTCApp.ChooseCurrencyViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ClassCalcBTCApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ghayth/Desktop/ClassCalcBTCApp/ClassCalcBTCApp/ChooseCurrencyViewController.swift"
+                  timestampString = "571961086.779142"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "311">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.NSDictionary&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ClassCalcBTCApp.ChooseCurrencyViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ClassCalcBTCApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ghayth/Desktop/ClassCalcBTCApp/ClassCalcBTCApp/ChooseCurrencyViewController.swift"
+                  timestampString = "571961086.842834"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "86">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7F1C5718EA18EE5469D7320 /* Pods_ClassCalcBTCApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B847F644734153DA69CBC3 /* Pods_ClassCalcBTCApp.framework */; };
+		D504D9362216F0D100723135 /* ChoseCurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D504D9352216F0D000723135 /* ChoseCurrencyCell.swift */; };
+		D50BBB3C2217370B00B3BE87 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50BBB3B2217370B00B3BE87 /* Networking.swift */; };
+		D54F441B2214657E00BD0C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F441A2214657E00BD0C04 /* AppDelegate.swift */; };
+		D54F441D2214657E00BD0C04 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F441C2214657E00BD0C04 /* ConversionViewController.swift */; };
+		D54F44202214657E00BD0C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54F441E2214657E00BD0C04 /* Main.storyboard */; };
+		D54F44222214658200BD0C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54F44212214658200BD0C04 /* Assets.xcassets */; };
+		D54F44252214658200BD0C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D54F44232214658200BD0C04 /* LaunchScreen.storyboard */; };
+		D54F444B2214A6AD00BD0C04 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F442D2214A6AD00BD0C04 /* DesignableImageView.swift */; };
+		D54F444C2214A6AD00BD0C04 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F442E2214A6AD00BD0C04 /* KeyboardLayoutConstraint.swift */; };
+		D54F444D2214A6AD00BD0C04 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F442F2214A6AD00BD0C04 /* TransitionManager.swift */; };
+		D54F444E2214A6AD00BD0C04 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44302214A6AD00BD0C04 /* TransitionZoom.swift */; };
+		D54F444F2214A6AD00BD0C04 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44312214A6AD00BD0C04 /* ImageLoader.swift */; };
+		D54F44502214A6AD00BD0C04 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44322214A6AD00BD0C04 /* Spring.swift */; };
+		D54F44512214A6AD00BD0C04 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44332214A6AD00BD0C04 /* SpringImageView.swift */; };
+		D54F44522214A6AD00BD0C04 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44342214A6AD00BD0C04 /* DesignableLabel.swift */; };
+		D54F44532214A6AD00BD0C04 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44352214A6AD00BD0C04 /* SoundPlayer.swift */; };
+		D54F44542214A6AD00BD0C04 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44362214A6AD00BD0C04 /* BlurView.swift */; };
+		D54F44552214A6AD00BD0C04 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44372214A6AD00BD0C04 /* DesignableTextField.swift */; };
+		D54F44562214A6AD00BD0C04 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44382214A6AD00BD0C04 /* SpringButton.swift */; };
+		D54F44572214A6AD00BD0C04 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44392214A6AD00BD0C04 /* SpringTextView.swift */; };
+		D54F44582214A6AD00BD0C04 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F443A2214A6AD00BD0C04 /* Misc.swift */; };
+		D54F44592214A6AD00BD0C04 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F443B2214A6AD00BD0C04 /* SpringView.swift */; };
+		D54F445A2214A6AD00BD0C04 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F443C2214A6AD00BD0C04 /* DesignableButton.swift */; };
+		D54F445B2214A6AD00BD0C04 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F443D2214A6AD00BD0C04 /* SpringTextField.swift */; };
+		D54F445C2214A6AD00BD0C04 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F443E2214A6AD00BD0C04 /* DesignableView.swift */; };
+		D54F445D2214A6AD00BD0C04 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F443F2214A6AD00BD0C04 /* DesignableTabBarController.swift */; };
+		D54F445E2214A6AD00BD0C04 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44402214A6AD00BD0C04 /* AsyncButton.swift */; };
+		D54F445F2214A6AD00BD0C04 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D54F44412214A6AD00BD0C04 /* LoadingView.xib */; };
+		D54F44602214A6AD00BD0C04 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44422214A6AD00BD0C04 /* SpringLabel.swift */; };
+		D54F44612214A6AD00BD0C04 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44442214A6AD00BD0C04 /* DesignableTextView.swift */; };
+		D54F44622214A6AD00BD0C04 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44452214A6AD00BD0C04 /* AutoTextView.swift */; };
+		D54F44632214A6AD00BD0C04 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44462214A6AD00BD0C04 /* SpringAnimation.swift */; };
+		D54F44642214A6AD00BD0C04 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44472214A6AD00BD0C04 /* UnwindSegue.swift */; };
+		D54F44652214A6AD00BD0C04 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44482214A6AD00BD0C04 /* LoadingView.swift */; };
+		D54F44672214A6AD00BD0C04 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F444A2214A6AD00BD0C04 /* AsyncImageView.swift */; };
+		D54F44692214B86000BD0C04 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F44682214B86000BD0C04 /* IntroViewController.swift */; };
+		D54F446B2214BE9C00BD0C04 /* ChooseCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F446A2214BE9B00BD0C04 /* ChooseCurrencyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A14C47398283A496ABFE5D5 /* Pods-ClassCalcBTCApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassCalcBTCApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClassCalcBTCApp/Pods-ClassCalcBTCApp.release.xcconfig"; sourceTree = "<group>"; };
+		69B847F644734153DA69CBC3 /* Pods_ClassCalcBTCApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassCalcBTCApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D504D9352216F0D000723135 /* ChoseCurrencyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoseCurrencyCell.swift; sourceTree = "<group>"; };
+		D50BBB3B2217370B00B3BE87 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		D54F44172214657E00BD0C04 /* ClassCalcBTCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassCalcBTCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54F441A2214657E00BD0C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D54F441C2214657E00BD0C04 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		D54F441F2214657E00BD0C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D54F44212214658200BD0C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D54F44242214658200BD0C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D54F44262214658200BD0C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54F442D2214A6AD00BD0C04 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		D54F442E2214A6AD00BD0C04 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		D54F442F2214A6AD00BD0C04 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		D54F44302214A6AD00BD0C04 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		D54F44312214A6AD00BD0C04 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		D54F44322214A6AD00BD0C04 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		D54F44332214A6AD00BD0C04 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		D54F44342214A6AD00BD0C04 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		D54F44352214A6AD00BD0C04 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		D54F44362214A6AD00BD0C04 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		D54F44372214A6AD00BD0C04 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		D54F44382214A6AD00BD0C04 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		D54F44392214A6AD00BD0C04 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		D54F443A2214A6AD00BD0C04 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		D54F443B2214A6AD00BD0C04 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		D54F443C2214A6AD00BD0C04 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		D54F443D2214A6AD00BD0C04 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		D54F443E2214A6AD00BD0C04 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		D54F443F2214A6AD00BD0C04 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		D54F44402214A6AD00BD0C04 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		D54F44412214A6AD00BD0C04 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		D54F44422214A6AD00BD0C04 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		D54F44432214A6AD00BD0C04 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		D54F44442214A6AD00BD0C04 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		D54F44452214A6AD00BD0C04 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		D54F44462214A6AD00BD0C04 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		D54F44472214A6AD00BD0C04 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		D54F44482214A6AD00BD0C04 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		D54F44492214A6AD00BD0C04 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54F444A2214A6AD00BD0C04 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		D54F44682214B86000BD0C04 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		D54F446A2214BE9B00BD0C04 /* ChooseCurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCurrencyViewController.swift; sourceTree = "<group>"; };
+		E21C6D48F7260DAE71791E83 /* Pods-ClassCalcBTCApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassCalcBTCApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClassCalcBTCApp/Pods-ClassCalcBTCApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D54F44142214657E00BD0C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F1C5718EA18EE5469D7320 /* Pods_ClassCalcBTCApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76AD465EF612B1A7782EF6C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B847F644734153DA69CBC3 /* Pods_ClassCalcBTCApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBACF7BC44C532E2DA095D0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E21C6D48F7260DAE71791E83 /* Pods-ClassCalcBTCApp.debug.xcconfig */,
+				0A14C47398283A496ABFE5D5 /* Pods-ClassCalcBTCApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D54F440E2214657E00BD0C04 = {
+			isa = PBXGroup;
+			children = (
+				D54F442C2214A6AD00BD0C04 /* Spring */,
+				D54F44192214657E00BD0C04 /* ClassCalcBTCApp */,
+				D54F44182214657E00BD0C04 /* Products */,
+				BBACF7BC44C532E2DA095D0C /* Pods */,
+				76AD465EF612B1A7782EF6C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D54F44182214657E00BD0C04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D54F44172214657E00BD0C04 /* ClassCalcBTCApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D54F44192214657E00BD0C04 /* ClassCalcBTCApp */ = {
+			isa = PBXGroup;
+			children = (
+				D504D9352216F0D000723135 /* ChoseCurrencyCell.swift */,
+				D54F441A2214657E00BD0C04 /* AppDelegate.swift */,
+				D54F441C2214657E00BD0C04 /* ConversionViewController.swift */,
+				D54F441E2214657E00BD0C04 /* Main.storyboard */,
+				D54F44212214658200BD0C04 /* Assets.xcassets */,
+				D54F44232214658200BD0C04 /* LaunchScreen.storyboard */,
+				D54F44262214658200BD0C04 /* Info.plist */,
+				D54F44682214B86000BD0C04 /* IntroViewController.swift */,
+				D54F446A2214BE9B00BD0C04 /* ChooseCurrencyViewController.swift */,
+				D50BBB3B2217370B00B3BE87 /* Networking.swift */,
+			);
+			path = ClassCalcBTCApp;
+			sourceTree = "<group>";
+		};
+		D54F442C2214A6AD00BD0C04 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				D54F442D2214A6AD00BD0C04 /* DesignableImageView.swift */,
+				D54F442E2214A6AD00BD0C04 /* KeyboardLayoutConstraint.swift */,
+				D54F442F2214A6AD00BD0C04 /* TransitionManager.swift */,
+				D54F44302214A6AD00BD0C04 /* TransitionZoom.swift */,
+				D54F44312214A6AD00BD0C04 /* ImageLoader.swift */,
+				D54F44322214A6AD00BD0C04 /* Spring.swift */,
+				D54F44332214A6AD00BD0C04 /* SpringImageView.swift */,
+				D54F44342214A6AD00BD0C04 /* DesignableLabel.swift */,
+				D54F44352214A6AD00BD0C04 /* SoundPlayer.swift */,
+				D54F44362214A6AD00BD0C04 /* BlurView.swift */,
+				D54F44372214A6AD00BD0C04 /* DesignableTextField.swift */,
+				D54F44382214A6AD00BD0C04 /* SpringButton.swift */,
+				D54F44392214A6AD00BD0C04 /* SpringTextView.swift */,
+				D54F443A2214A6AD00BD0C04 /* Misc.swift */,
+				D54F443B2214A6AD00BD0C04 /* SpringView.swift */,
+				D54F443C2214A6AD00BD0C04 /* DesignableButton.swift */,
+				D54F443D2214A6AD00BD0C04 /* SpringTextField.swift */,
+				D54F443E2214A6AD00BD0C04 /* DesignableView.swift */,
+				D54F443F2214A6AD00BD0C04 /* DesignableTabBarController.swift */,
+				D54F44402214A6AD00BD0C04 /* AsyncButton.swift */,
+				D54F44412214A6AD00BD0C04 /* LoadingView.xib */,
+				D54F44422214A6AD00BD0C04 /* SpringLabel.swift */,
+				D54F44432214A6AD00BD0C04 /* Spring.h */,
+				D54F44442214A6AD00BD0C04 /* DesignableTextView.swift */,
+				D54F44452214A6AD00BD0C04 /* AutoTextView.swift */,
+				D54F44462214A6AD00BD0C04 /* SpringAnimation.swift */,
+				D54F44472214A6AD00BD0C04 /* UnwindSegue.swift */,
+				D54F44482214A6AD00BD0C04 /* LoadingView.swift */,
+				D54F44492214A6AD00BD0C04 /* Info.plist */,
+				D54F444A2214A6AD00BD0C04 /* AsyncImageView.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D54F44162214657E00BD0C04 /* ClassCalcBTCApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54F44292214658200BD0C04 /* Build configuration list for PBXNativeTarget "ClassCalcBTCApp" */;
+			buildPhases = (
+				41AA235505BC196C484D935D /* [CP] Check Pods Manifest.lock */,
+				D54F44132214657E00BD0C04 /* Sources */,
+				D54F44142214657E00BD0C04 /* Frameworks */,
+				D54F44152214657E00BD0C04 /* Resources */,
+				4F91C9DFC0041C5E143D6107 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClassCalcBTCApp;
+			productName = ClassCalcBTCApp;
+			productReference = D54F44172214657E00BD0C04 /* ClassCalcBTCApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D54F440F2214657E00BD0C04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ghayth Kubaisi";
+				TargetAttributes = {
+					D54F44162214657E00BD0C04 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D54F44122214657E00BD0C04 /* Build configuration list for PBXProject "ClassCalcBTCApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D54F440E2214657E00BD0C04;
+			productRefGroup = D54F44182214657E00BD0C04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D54F44162214657E00BD0C04 /* ClassCalcBTCApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D54F44152214657E00BD0C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54F44252214658200BD0C04 /* LaunchScreen.storyboard in Resources */,
+				D54F445F2214A6AD00BD0C04 /* LoadingView.xib in Resources */,
+				D54F44222214658200BD0C04 /* Assets.xcassets in Resources */,
+				D54F44202214657E00BD0C04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41AA235505BC196C484D935D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClassCalcBTCApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F91C9DFC0041C5E143D6107 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ClassCalcBTCApp/Pods-ClassCalcBTCApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClassCalcBTCApp/Pods-ClassCalcBTCApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D54F44132214657E00BD0C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54F44642214A6AD00BD0C04 /* UnwindSegue.swift in Sources */,
+				D54F44602214A6AD00BD0C04 /* SpringLabel.swift in Sources */,
+				D54F445E2214A6AD00BD0C04 /* AsyncButton.swift in Sources */,
+				D54F44562214A6AD00BD0C04 /* SpringButton.swift in Sources */,
+				D54F44582214A6AD00BD0C04 /* Misc.swift in Sources */,
+				D54F44652214A6AD00BD0C04 /* LoadingView.swift in Sources */,
+				D54F44522214A6AD00BD0C04 /* DesignableLabel.swift in Sources */,
+				D54F444F2214A6AD00BD0C04 /* ImageLoader.swift in Sources */,
+				D54F44532214A6AD00BD0C04 /* SoundPlayer.swift in Sources */,
+				D54F441D2214657E00BD0C04 /* ConversionViewController.swift in Sources */,
+				D54F44592214A6AD00BD0C04 /* SpringView.swift in Sources */,
+				D54F44612214A6AD00BD0C04 /* DesignableTextView.swift in Sources */,
+				D50BBB3C2217370B00B3BE87 /* Networking.swift in Sources */,
+				D54F44502214A6AD00BD0C04 /* Spring.swift in Sources */,
+				D54F44672214A6AD00BD0C04 /* AsyncImageView.swift in Sources */,
+				D54F445C2214A6AD00BD0C04 /* DesignableView.swift in Sources */,
+				D504D9362216F0D100723135 /* ChoseCurrencyCell.swift in Sources */,
+				D54F44692214B86000BD0C04 /* IntroViewController.swift in Sources */,
+				D54F44542214A6AD00BD0C04 /* BlurView.swift in Sources */,
+				D54F446B2214BE9C00BD0C04 /* ChooseCurrencyViewController.swift in Sources */,
+				D54F444D2214A6AD00BD0C04 /* TransitionManager.swift in Sources */,
+				D54F444C2214A6AD00BD0C04 /* KeyboardLayoutConstraint.swift in Sources */,
+				D54F44632214A6AD00BD0C04 /* SpringAnimation.swift in Sources */,
+				D54F44512214A6AD00BD0C04 /* SpringImageView.swift in Sources */,
+				D54F445D2214A6AD00BD0C04 /* DesignableTabBarController.swift in Sources */,
+				D54F444E2214A6AD00BD0C04 /* TransitionZoom.swift in Sources */,
+				D54F445B2214A6AD00BD0C04 /* SpringTextField.swift in Sources */,
+				D54F44622214A6AD00BD0C04 /* AutoTextView.swift in Sources */,
+				D54F444B2214A6AD00BD0C04 /* DesignableImageView.swift in Sources */,
+				D54F44572214A6AD00BD0C04 /* SpringTextView.swift in Sources */,
+				D54F441B2214657E00BD0C04 /* AppDelegate.swift in Sources */,
+				D54F44552214A6AD00BD0C04 /* DesignableTextField.swift in Sources */,
+				D54F445A2214A6AD00BD0C04 /* DesignableButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D54F441E2214657E00BD0C04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D54F441F2214657E00BD0C04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D54F44232214658200BD0C04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D54F44242214658200BD0C04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D54F44272214658200BD0C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D54F44282214658200BD0C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D54F442A2214658200BD0C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21C6D48F7260DAE71791E83 /* Pods-ClassCalcBTCApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22Z528ETH2;
+				INFOPLIST_FILE = ClassCalcBTCApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Classcalc.BTC.ClassCalcBTCApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D54F442B2214658200BD0C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A14C47398283A496ABFE5D5 /* Pods-ClassCalcBTCApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22Z528ETH2;
+				INFOPLIST_FILE = ClassCalcBTCApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Classcalc.BTC.ClassCalcBTCApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D54F44122214657E00BD0C04 /* Build configuration list for PBXProject "ClassCalcBTCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54F44272214658200BD0C04 /* Debug */,
+				D54F44282214658200BD0C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54F44292214658200BD0C04 /* Build configuration list for PBXNativeTarget "ClassCalcBTCApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54F442A2214658200BD0C04 /* Debug */,
+				D54F442B2214658200BD0C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D54F440F2214657E00BD0C04 /* Project object */;
+}
